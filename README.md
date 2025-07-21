@@ -19,20 +19,23 @@
 ## 🗺️ System Architecture
 
 ```mermaid
+```mermaid
 graph TD
-    A[Smart Stove Sensors] --> B[Edge Device (Raspberry Pi + IR Sensor + Camera)]
-    B --> C[Cookware Detection (CV Model)]
-    B --> D[Temperature Logging (via MQTT)]
-    C --> E[ML Model - Material-Aware Thermal Ramp Logic]
+    A["Smart Stove Sensors"] --> B["Edge Device (Raspberry Pi + IR Sensor + Camera)"]
+    B --> C["Cookware Detection (CV Model)"]
+    B --> D["Temperature Logging (via MQTT)"]
+    C --> E["ML Model - Material-Aware Thermal Ramp Logic"]
     D --> E
-    E --> F[Microcontroller Feedback Control (PID/RL)]
-    F --> G[Heat Application Logic]
-    D --> H[ETL Pipeline (Airflow + DBT)]
-    H --> I[Azure SQL / RDS]
-    H --> J[Blob / S3 Storage]
-    I --> K[Monitoring + Dashboard (Grafana)]
+    E --> F["Microcontroller Feedback Control (PID/RL)"]
+    F --> G["Heat Application Logic"]
+    D --> H["ETL Pipeline (Airflow + DBT)"]
+    H --> I["Azure SQL / RDS"]
+    H --> J["Blob / S3 Storage"]
+    I --> K["Monitoring + Dashboard (Grafana)"]
     J --> K
-    G --> L[User Interface (Web/LED Feedback)]
+    G --> L["User Interface (Web/LED Feedback)"]
+```
+
 ```
 
 ---
