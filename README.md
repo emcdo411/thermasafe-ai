@@ -134,6 +134,71 @@ jobs:
         run: |
           pytest tests/
 ```
+Absolutely! Below is a **GitHub README section** written in a clean and professional tone — tailored as if you're a **Product Manager** giving Git instructions and push guidelines to team members. It includes common push commands, how to trigger CI/CD GitHub Actions, and how to handle pull requests responsibly.
+
+---
+
+### 🚀 Git Push & GitHub Actions (PM Guidelines)
+![CI](https://github.com/emcdo411/thermasafe-ai/actions/workflows/test-ci.yml/badge.svg)
+
+To maintain project integrity and enable automated workflows for **ThermaSafeAI**, follow these steps when making contributions.
+
+#### 🔄 1. Sync Your Local Branch
+
+```bash
+git checkout main
+git pull origin main
+```
+
+✅ *Ensure your branch is up to date before making changes.*
+
+#### 🛠️ 2. Stage and Commit Changes
+
+```bash
+git add .
+git commit -m "Brief, clear message about what was changed"
+```
+
+📝 *Use commit messages that clearly explain **what** and **why** the change was made.*
+
+#### 📤 3. Push and Trigger CI/CD Workflow
+
+```bash
+git push origin main
+```
+
+📡 *This automatically triggers GitHub Actions to run our `test-ci.yml` workflow.*
+
+#### 🔀 4. Working with Feature Branches
+
+```bash
+git checkout -b feature/your-branch-name
+# Make changes...
+git add .
+git commit -m "Add new feature XYZ"
+git push origin feature/your-branch-name
+```
+
+Then, go to [Pull Requests](https://github.com/emcdo411/thermasafe-ai/pulls) and **open a new PR**.
+
+🧪 *CI will auto-test your branch. Only merge to `main` if tests pass.*
+
+---
+
+### ✅ PR Approval Checklist (for Maintainers)
+
+Before approving or merging any pull request:
+
+* [ ] CI/CD pipeline passes (✅ green check)
+* [ ] Code is modular and matches directory structure
+* [ ] Naming conventions are consistent
+* [ ] Sensitive credentials/secrets are not exposed
+* [ ] SQL logic is safe and well-commented
+* [ ] Streamlit/UI code renders correctly (if applicable)
+
+---
+
+Let me know if you want a badge at the top that shows build status (e.g., "Build: Passing ✅") or want to add a deployment workflow next!
 
 ---
 
