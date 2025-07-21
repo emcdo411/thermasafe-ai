@@ -1,0 +1,4 @@
+# File: etl/dbt/dbt_project.yml
+# Explanation: Declares a DBT project for transforming heat logs.
+name: therma_etl
+version: '1.0'
