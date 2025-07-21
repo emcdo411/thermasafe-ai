@@ -1,0 +1,16 @@
+name: Test Success Workflow
+
+on:
+  push:
+    paths:
+      - '.github/workflows/success-test.yml'
+
+jobs:
+  test-success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say Hello from ThermaSafeAI
+        run: echo "✅ Hello from ThermaSafeAI - Workflow succeeded!"
