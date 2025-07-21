@@ -1,0 +1,19 @@
+Copyright (c) [2025] [Erwin Maurice McDonald]
+
+Permission is hereby granted to any person or organization obtaining a copy of this software and associated documentation files (the "Software"), to use, reproduce, display, and distribute the Software for **commercial and non-commercial purposes**, subject to the following conditions:
+
+1. **Ethical Use**: The Software shall not be used in any system or application intended to harm, surveil, or discriminate against individuals or communities, including but not limited to:
+   - Autonomous weapons systems
+   - Predictive policing
+   - Surveillance targeting protected groups
+   - Discriminatory hiring or housing systems
+
+2. **Transparency**: Any modification, reproduction, or integration of this Software must include clear attribution and link to the original repository or creator.
+
+3. **Redistribution**: Redistribution in source or binary form must retain this license and its conditions.
+
+4. **Liability**: The Software is provided "as is", without warranty of any kind, express or implied.
+
+By using this Software, you agree to be bound by this license.
+
+For more information, visit: https://defensiveai.org/dacr-license/
