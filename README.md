@@ -19,7 +19,6 @@
 ## 🗺️ System Architecture
 
 ```mermaid
-```mermaid
 graph TD
     A["Smart Stove Sensors"] --> B["Edge Device (Raspberry Pi + IR Sensor + Camera)"]
     B --> C["Cookware Detection (CV Model)"]
@@ -34,8 +33,6 @@ graph TD
     I --> K["Monitoring + Dashboard (Grafana)"]
     J --> K
     G --> L["User Interface (Web/LED Feedback)"]
-```
-
 ```
 
 ---
@@ -168,4 +165,5 @@ For collaboration or inquiries, contact: [moe.mcdonald@gmail.com](mailto:moe.mcd
 ---
 
 *Built with ❤️ by a veteran innovator exploring the edge of AI, safety, and hardware.*
+
 
