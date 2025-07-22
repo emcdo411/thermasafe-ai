@@ -37,8 +37,6 @@ graph TD
 
 ---
 
-## 📦 Tech Stack
-
 ## 🧰 Tech Stack
 
 ### 🔧 Backend & Infrastructure  
