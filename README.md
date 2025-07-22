@@ -39,12 +39,49 @@ graph TD
 
 ## 📦 Tech Stack
 
-- **Backend & Infra**: Azure IoT Hub, Azure SQL / AWS RDS, Blob/S3 Storage
-- **AI/ML**: TensorFlow, PyTorch, Stable-Baselines3, scikit-learn
-- **Sensors**: IR Temperature Sensor, Raspberry Pi + Camera
-- **Data Orchestration**: Apache Airflow, DBT
-- **UI**: Streamlit or React + FastAPI
-- **DevOps**: GitHub Actions, Docker, Terraform
+## 🧰 Tech Stack
+
+### 🔧 Backend & Infrastructure  
+![Azure IoT Hub](https://img.shields.io/badge/Azure-IoT%20Hub-0078D4?logo=microsoftazure&logoColor=white&style=for-the-badge)  
+![Azure SQL](https://img.shields.io/badge/Azure-SQL-0078D4?logo=microsoftazure&logoColor=white&style=for-the-badge)  
+![AWS RDS](https://img.shields.io/badge/AWS-RDS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge)  
+![Blob Storage](https://img.shields.io/badge/Azure-Blob%20Storage-0078D4?logo=microsoftazure&logoColor=white&style=for-the-badge)  
+![S3](https://img.shields.io/badge/AWS-S3-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge)
+
+---
+
+### 🤖 AI / Machine Learning  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)  
+![Stable Baselines3](https://img.shields.io/badge/Stable--Baselines3-00599C?style=for-the-badge)  
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge)
+
+---
+
+### 🌡️ Sensors & Edge  
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-CA2C92?logo=raspberrypi&logoColor=white&style=for-the-badge)  
+![IR Temp Sensor](https://img.shields.io/badge/IR%20Temperature%20Sensor-Hardware-informational?style=for-the-badge)
+
+---
+
+### 📊 Data Orchestration  
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white&style=for-the-badge)  
+![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white&style=for-the-badge)
+
+---
+
+### 🎨 User Interface  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)
+
+---
+
+### 🚀 DevOps  
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge)  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)  
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white&style=for-the-badge)
+
 
 ---
 
